@@ -24,7 +24,7 @@ public class SortMy {
         while (low < heigh) {
 
             while (low < heigh && nums[heigh] > temp) {
-                heigh--;
+                    heigh--;
             }
             nums[low] = nums[heigh];
             while (low < heigh && nums[low] < temp) {
